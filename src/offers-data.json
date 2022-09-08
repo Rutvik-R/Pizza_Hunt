@@ -1,0 +1,39 @@
+{
+    "data" : [
+        {
+            "image": "images/check.jpg",
+            "name": "item1",
+            "main_price": 1000,
+            "discount": 25,
+            "url": ""
+        },
+        {
+            "image": "images/check2.webp",
+            "name": "item2",
+            "main_price": 100,
+            "discount": 15,
+            "url": ""
+        },
+        {
+            "image": "images/check.jpg",
+            "name": "item3",
+            "main_price": 200,
+            "discount": 15,
+            "url": ""
+        },
+        {
+            "image": "images/check2.webp",
+            "name": "item4",
+            "main_price": 2000,
+            "discount": 40,
+            "url": ""
+        },
+        {
+            "image": "images/check.jpg",
+            "name": "item5",
+            "main_price": 5000,
+            "discount": 50,
+            "url": ""
+        }
+    ]
+}

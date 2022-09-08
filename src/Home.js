@@ -5,10 +5,12 @@ import ImageSlider from "./imageSlider"
 import Offers from "./Offers"
 import {useTransition, animated} from "react-spring"
 import data from "./reviews-data.json"
+import offerdata from "./offers-data.json"
 
 
 export default function App() {
     const [scrollY, setScrollY] = React.useState(window.scrollY);
+
 
     const scroll = () => {
         setScrollY((prevState) => prevState = window.scrollY);
@@ -33,11 +35,11 @@ export default function App() {
                      : " "
             )}
             <Homepic />
-            <Offers />
             <ImageSlider images={data.data} ></ImageSlider>
-            <div className="hello">
+            <Offers images={offerdata.data}/>
+            {/* <div className="hello">
 
-            </div>
+            </div> */}
         </div>
     )
 }

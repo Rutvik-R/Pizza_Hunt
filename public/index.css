@@ -88,7 +88,7 @@ body{
     position: relative;
     align-items: center;
     align-content: center;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0,0.5); 
+    box-shadow: 3px 3px 4px 4px rgba(144, 144, 144, 0.5); 
     margin: 5% 5% 5% 5%;
     height: 100%;
     width: 200px;
@@ -101,8 +101,6 @@ body{
 .offers button{
     background-color: blue;
     position: relative;
-    /* width: 200px; */
-    /* padding: 5%; */
     margin: 5% 5% 5% 5%;
     height: 20px;
     width: 100px;
@@ -147,6 +145,7 @@ body{
     height: 400px;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 50px;
     background-color: white;
     border-radius: 15px;
     box-shadow: 0px 0px 10px 10px rgba(200, 200, 200, 0.1);
@@ -189,3 +188,4 @@ body{
 .checked {
     color: orange;
 }
+

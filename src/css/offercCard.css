@@ -1,0 +1,45 @@
+.container {
+    height: 520;
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+.offer {
+    border: 1px solid black;
+    background-size: cover;
+    width: calc(100vw/3);
+    height: 300px;
+}
+.offer::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.05);
+}
+.offer-tag {
+    position: fixed;
+    background-color: yellow;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    z-index: 100;
+}
+.offer p {
+    z-index: 100;
+    position: relative;
+}
+.offer button {
+    z-index: 100;
+    position: relative;
+}
+.offerimg {
+    
+}
