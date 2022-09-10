@@ -1,0 +1,73 @@
+.contact-title{
+    padding-top: 2vh;
+    padding-bottom:2vh;
+    background-color:rgb(200, 218, 173);
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 500;
+    margin-bottom: 6vh;
+}
+.Contact_second_title{
+    font-family: 'Bree Serif', serif;
+    font-size: 3vh;
+    font-weight: 600;
+    margin-left: 6vw;
+}
+.fa-mobile-phone{
+    color: orange;
+   
+}
+.contact-box1 i, .contact-box2 i, .contact-box3 i{
+    color:orange
+    
+}
+.contact-box1{
+    margin-left: 6vw;
+    margin-right: 17vw;
+}
+.contact-box2{
+    
+    margin-right: 17vw;
+}
+.contact-box3{
+  margin-right: 17vw;
+}
+.contact-box{
+    display: flex;
+    margin-top:3vh;
+    margin-bottom:3vh;
+}
+.contact-flex{
+    display: flex;
+    margin-left:6vw;
+    border-radius: 1rem;
+}
+.contact-map-box{
+   margin-left:5vw;
+}
+.contact-input{
+    margin-top: 2vh;
+    line-height: 4.5vh;
+    width: 30vw;
+    border-radius: 0.3rem;
+    border-color: rgba(61, 55, 55, 0.3);
+    padding-left: 1vw;
+    font-size: 2.5vh;
+    color:rgba(61, 55, 55, 0.3) ;
+}
+.contact-submit{
+    margin-top: 2vh;
+    padding-top: 1.7vh;;
+    padding-bottom: 1.7vh;
+    padding-left: 2.5vw;
+    padding-right:2.5vw;
+    font-size:2.5vh;
+    font-weight: 650;
+    border-radius: 0.7rem;
+    background-color: orange;
+}
+.contact-main{
+    margin-top: 10vh;;
+    margin-bottom: 10vh;
+}
