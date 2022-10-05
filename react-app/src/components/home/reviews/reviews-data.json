@@ -1,43 +1,55 @@
-[
-    {
-        "name": "Emily Hendricks",
-        "review": "Food prepared is excellent. The delivery service is impeccable and the most important thing is the well trained chefs. Food prepared is excellent. The delivery service is impeccable and the most important thing is the well trained chefs.",
-        "profile_pic": "images/reviews/profile_1.webp",
-        "rating": 5
-    },
-    {
-        "name": "Andrew Mathews",
-        "review": "The pizza is rare. There should not be any doubt about it. Maybe they should start selling burgers too.",
-        "profile_pic": "images/reviews/profile_2.jpg",
-        "rating": 5
-    },
-    {
-        "name": "Julia McLaren",
-        "review": "Overwhelmed!!! Definitely my weekend destination",
-        "profile_pic": "images/reviews/profile_3.jpg",
-        "rating": 4
-    },
-    {
-        "name": "Emily Hendricks",
-        "review": "Food prepared is excellent. The delivery service is impeccable and the most important thing is the well trained chefs. Food prepared is excellent. The delivery service is impeccable and the most important thing is the well trained chefs.",
-        "profile_pic": "images/reviews/profile_1.webp",
-        "rating": 5
-    },
-    {
-        "name": "Andrew Mathews",
-        "review": "The pizza is rare. There should not be any doubt about it. Maybe they should start selling burgers too.",
-        "profile_pic": "images/reviews/profile_2.jpg",
-        "rating": 4
-    },
-    {
-        "name": "Julia McLaren",
-        "review": "Overwhelmed!!! Definitely my weekend destination",
-        "profile_pic": "images/reviews/profile_3.jpg",
-        "rating": 5
-    },
-    {
-        "name": "Rutvik",
-        "reating": "3",
-        "review": "best"
-    }
-]
+{
+    "data": [
+        {
+            "name": "Emily Hendricks",
+            "review": "Food prepared is excellent. The delivery service is impeccable and the most important thing is the well trained chefs. Food prepared is excellent. The delivery service is impeccable and the most important thing is the well trained chefs.",
+            "profile_pic": "images/reviews/profile_1.webp",
+            "rating": 5
+        },
+        {
+            "name": "Andrew Mathews",
+            "review": "The pizza is rare. There should not be any doubt about it. Maybe they should start selling burgers too.",
+            "profile_pic": "images/reviews/profile_2.jpg",
+            "rating": 5
+        },
+        {
+            "name": "Julia McLaren",
+            "review": "Overwhelmed!!! Definitely my weekend destination",
+            "profile_pic": "images/reviews/profile_3.jpg",
+            "rating": 4
+        },
+        {
+            "name": "Emily Hendricks",
+            "review": "Food prepared is excellent. The delivery service is impeccable and the most important thing is the well trained chefs. Food prepared is excellent. The delivery service is impeccable and the most important thing is the well trained chefs.",
+            "profile_pic": "images/reviews/profile_1.webp",
+            "rating": 5
+        },
+        {
+            "name": "Andrew Mathews",
+            "review": "The pizza is rare. There should not be any doubt about it. Maybe they should start selling burgers too.",
+            "profile_pic": "images/reviews/profile_2.jpg",
+            "rating": 4
+        },
+        {
+            "name": "Julia McLaren",
+            "review": "Overwhelmed!!! Definitely my weekend destination",
+            "profile_pic": "images/reviews/profile_3.jpg",
+            "rating": 5
+        },
+        {
+            "name": "Rutvik",
+            "reating": "3",
+            "review": "best"
+        },
+        {
+            "name": "Kaushik",
+            "reating": "4",
+            "review": "good "
+        },
+        {
+            "name": "Mahesh",
+            "reating": "3",
+            "review": "best"
+        }
+    ]
+}

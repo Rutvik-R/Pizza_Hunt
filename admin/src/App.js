@@ -4,7 +4,7 @@ const path = require('path')
 
 
 
-const offers_json = fs.readFileSync('../../react-app/src/components/home/offers/offers-data.json')
+const offers_json = fs.readFileSync('./../../react-app/src/components/home/offers/offers-data.json')
 const reviews_json  = fs.readFileSync('../../react-app/src/components/home/reviews/reviews-data.json')
 
 const app = express();
@@ -26,13 +26,13 @@ app.get('/reviews' , (req , res)=>{
 })
 
 app.get('/offers/data' , (req , res)=>{
-  let data = require('../../react-app/src/components/home/offers/offers-data.json')
+  let data = require('./../../react-app/src/components/home/offers/offers-data.json')
   res.json(data);
 })
 
 app.get('/reviews/data' , (req , res)=>{
   let data = require('./../../react-app/src/components/home/reviews/reviews-data.json')
-  res.json(data);
+  res.json(data.data);
 })
 
 
@@ -44,7 +44,7 @@ app.post("/offers/data_port", (req, res) => {
   console.log(json)
   json.push(data)
   console.log(json)
-  fs.writeFileSync("../../react-app/src/components/home/offers/offers-data.json", JSON.stringify(json) , function(err){
+  fs.writeFileSync("./../../react-app/src/components/home/offers/offers-data.json", JSON.stringify(json) , function(err){
       if(err){
           return res.send("Not Done")
       }
@@ -58,15 +58,15 @@ app.post("/offers/data_port", (req, res) => {
 app.post('/reviwes/data_port', (req, res) => {
   let data = req.body
   let json = JSON.parse(reviews_json.toString())
-
   console.log(json)
-  json.push(data)
+  json.data.push(data)
   console.log(json)
   fs.writeFileSync("./../../react-app/src/components/home/reviews/reviews-data.json", JSON.stringify(json) , function(err){
       if(err){
           return res.send("Not Done")
       }
-      return res.send('Done')
+      res.send('Done')
+      res.json(json)
   })
   res.send('done')
 })
