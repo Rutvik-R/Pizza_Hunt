@@ -1,0 +1,55 @@
+<style>
+    * {
+        padding: 5px;
+    }
+</style>
+<form action="/offers/data_port" method="post" style="padding: 0px;">
+    <table style="padding: 0px;">
+        <tr>
+            <td> <label>name</label></td>
+            <td> <input type="text" name="name" required></input><br /></td>
+        </tr>
+        <tr>
+            <td> <label>Main-price</label></td>
+            <td> <input type="number" name="main_price" required></input><br /></td>
+        </tr>
+        <tr>
+            <td> <label>discount</label></td>
+            <td> <input type="number" name="discount" value="10"></input><br /></td>
+        </tr>
+        <tr>
+            <td> <label>Enter offer day</label></td>
+            <td> Sun<input type="radio" name="day" value="Sunday">
+                Mon<input type="radio" name="day" value="Monday">
+                The<input type="radio" name="day" value="Tuesday">
+                Wed<input type="radio" name="day" value="Wednesday">
+                Thu<input type="radio" name="day" value="Thusday">
+                Fri<input type="radio" name="day" value="Friday">
+                Sat<input type="radio" name="day" value="Saturday"></td>
+        </tr>
+
+        <br />
+        <tr>
+            <td> <label>Enter image url</label></td>
+            <td> <input type="text" name="image"><br /></td>
+        </tr>
+        <tr>
+            <td> <label>url</label></td>
+            <td> <input type="text" name="url"></input><br /></td>
+        </tr>
+        <tr>
+            <td> <input type="submit"></input></td>
+        </tr>
+    </table>
+</form>
+
+<br /><br /><br />
+<label>See Current updated data</label><br />
+<iframe src="/offers/update_data" title="recent update" width="80%" height=" fit-content"></iframe><br />
+<a href="/offers/update_data" target="_blank">See in Next page</a>
+<br />
+<br />
+<label>See all offers</label><br />
+<iframe src="/offers/data" title="See Current Data" width="80%" height=" fit-content"></iframe>
+<br />
+<a href="/offers/data" target="_blank">See in Next page</a>
