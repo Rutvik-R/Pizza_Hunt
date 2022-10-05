@@ -1,18 +1,47 @@
-<a href="/reviews/data" target="_blank">See Current Data</a>
-<br />
-<br />
+<style>
+  * {
+    padding: 5px;
+  }
+</style>
 
-<form action="/reviwes/data_port" method="POST">
-  <label>name</label>
-  <input type="text" name="name"></input><br />
-  <label>Select reating</label>
-  <input type="radio" name="reating" value="1">
-  <input type="radio" name="reating" value="2">
-  <input type="radio" name="reating" value="3">
-  <input type="radio" name="reating" value="4">
-  <input type="radio" name="reating" value="5"><br />
-  <label>Write Hear : </label>
-  <textarea name="review"></textarea><br />
-  <input type="Submit">
+<form action="/reviews/data_port" method="POST">
+  <table>
+    <tr>
+      <td><label>name</label></td>
+      <td><input type="text" name="name" required></input><br /></td>
+    </tr>
+    <tr>
+      <td><label>Select reating</label></td>
+      <td>1<input type="radio" name="rating" value="1">
+      2<input type="radio" name="rating" value="2">
+      3<input type="radio" name="rating" value="3">
+      4<input type="radio" name="rating" value="4">
+      5<input type="radio" name="rating" value="5" checked><br /></td>
+    </tr>
+    <tr>
+      <td><label>Enter url of profile_pic</label></td>
+      <td><input type="text" name="profile_pic"><br /></td>
+    </tr>
+    <tr>
+      <td><label>Write Hear : </label></td>
+      <td><textarea name="review" required></textarea><br /></td>
+    </tr>
+    <tr>
+      <td><input type="Submit"></td>
+    </tr>
+
+  </table>
 </form>
 
+
+
+<br /><br /><br />
+<label>See Current updated data</label><br />
+<iframe src="/reviews/update_data" title="recent update" width="80%" height="fit-content"></iframe><br />
+<a href="/reviews/update_data" target="_blank">See in Next page</a>
+<br />
+<br />
+<label>See all reviews</label><br />
+<iframe src="/reviews/data" title="See Current Data" width="80%" height="fit-content"></iframe>
+<br />
+<a href="/reviews/data" target="_blank">See in Next page</a>

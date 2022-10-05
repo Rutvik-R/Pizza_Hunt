@@ -35,21 +35,6 @@
             "review": "Overwhelmed!!! Definitely my weekend destination",
             "profile_pic": "images/reviews/profile_3.jpg",
             "rating": 5
-        },
-        {
-            "name": "Rutvik",
-            "reating": "3",
-            "review": "best"
-        },
-        {
-            "name": "Kaushik",
-            "reating": "4",
-            "review": "good "
-        },
-        {
-            "name": "Mahesh",
-            "reating": "3",
-            "review": "best"
         }
     ]
 }
