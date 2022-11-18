@@ -1,0 +1,22 @@
+.dashboard_left {
+	width: 400px;
+	height: 100vh;
+	background-color: #ffffff;
+}
+
+.close_button {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	margin-left: -35px;
+	margin-top: 45vh;
+	background-color: #ffffff;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.close_button i {
+	padding-right: 15px;
+}
