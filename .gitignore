@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/user_admin/node_modules
 /react-app/node_modules
 /admin/node_modules
 
